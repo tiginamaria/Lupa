@@ -63,6 +63,7 @@ dependencies {
     implementation(project(":kotlin-analysers"))
     implementation(project(":python-analysers"))
     implementation(project(":lupa-core"))
+    implementation(project(":lupa-server"))
     implementation("com.xenomachina:kotlin-argparser:2.0.7")
 }
 

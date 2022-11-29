@@ -29,13 +29,13 @@ allprojects {
 
     val utilitiesProjectName = "org.jetbrains.research.pluginUtilities"
     dependencies {
-        implementation(kotlin("stdlib-jdk8"))
+        implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10")
         implementation(platform("org.jetbrains.kotlin:kotlin-reflect:1.5.10"))
 
         // Logging
-        implementation("org.apache.logging.log4j:log4j-api:2.17.0")
-        implementation("org.apache.logging.log4j:log4j-core:2.17.0")
-        implementation("org.apache.logging.log4j:log4j-slf4j-impl:2.17.0")
+        implementation("org.apache.logging.log4j:log4j-api:2.19.0")
+        implementation("org.apache.logging.log4j:log4j-core:2.19.0")
+        implementation("org.apache.logging.log4j:log4j-slf4j-impl:2.19.0")
 
         // Plugin utilities modules
         implementation("$utilitiesProjectName:plugin-utilities-core") {

@@ -6,6 +6,7 @@ include(
     "lupa-core",
     "lupa-test",
     "lupa-runner",
+    "lupa-server",
 
     "kotlin-analysers",
     "python-analysers"
@@ -29,3 +30,4 @@ pluginManagement {
         maven(url = "https://nexus.gluonhq.com/nexus/content/repositories/releases")
     }
 }
+include("lupa-server")
