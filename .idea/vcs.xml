@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lupa-server/src/main/resources/data/info/ktor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lupa-server/src/main/resources/data/input/kotlinx.coroutines" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lupa-server/src/main/resources/data/input/ktor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lupa-server/src/main/resources/data/output/tmp/kotlinx.coroutines" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lupa-server/src/main/resources/data/output/tmp/ktor" vcs="Git" />
+  </component>
+</project>
